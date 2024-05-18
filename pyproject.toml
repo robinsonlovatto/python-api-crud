@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-api-crud"
+version = "0.1.0"
+description = ""
+authors = ["robinson.ramm.lovatto <robinson.ramm.lovatto@oracle.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlalchemy = "^2.0.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
