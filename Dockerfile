@@ -16,4 +16,4 @@ RUN poetry install
 EXPOSE 8501
 
 # Define the entrypointto execute the Uvicorn server
-ENTRYPOINT ["poetry", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8501"]
+ENTRYPOINT ["poetry", "run", "uvicorn", "main:app", "--port", "8501"]
