@@ -1,5 +1,5 @@
 # Python API CRUD
-A simple project that an API for database operations.
+A simple project that creates an API for database operations.
 
 ## Starting the project from scratch
 ```bash
@@ -23,7 +23,7 @@ poetry install
 poetry run uvicorn main:app --reload
 ```
 
-## Building Docker image and running it
+## Building Docker image and running it on Docker
 ```bash
 docker build -t my-python-image .
 docker run -d -p 8501:8501 --name my-python-container my-python-image
@@ -33,12 +33,3 @@ docker run -d -p 8501:8501 --name my-python-container my-python-image
 ```bash
 http://localhost:8501/docs
 ```
-
-
-
-
-
-
-
-
-
